@@ -1,17 +1,21 @@
 # puzzle_game
 
-A new Flutter project.
+### Run locally:
+```sh
+flutter clean
+flutter pub get
+flutter run -d chrome
+```
 
-## Getting Started
+### Description:
+The game is a simple puzzle game with 3 levels:
+Level 1: 2x2 puzzle
+Level 2: 3x2 puzzle
+Level 3: 3x3 puzzle
 
-This project is a starting point for a Flutter application.
+Besides the provided images, user can also upload their own image, the app will split the image into pieces and put them in random order.
 
-A few resources to get you started if this is your first Flutter project:
+### Deployed at:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### How to play game:
+Drag and drop the pieces to their correct positions on the grid. Complete the puzzle to finish the level.
